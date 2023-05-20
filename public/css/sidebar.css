@@ -1,0 +1,84 @@
+.sidenav {
+    display: none;
+}
+
+.sidenav .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.sidenav .logo img {
+    width: 34px;
+
+}
+
+.sidenav .icon_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2.5rem auto 1rem auto;
+}
+
+.sidenav .icon_section a {
+    margin-bottom: 1.5rem;
+}
+
+.sidenav .home_icon {
+    width: fit-content;
+    background-color: #E44A01;
+    padding: .3rem .7rem;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.sidenav .home_icon img {
+    width: 22px;
+}
+
+.sidenav .user_icon {
+    width: fit-content;
+    padding: .3rem .7rem;
+    border-radius: 3px;
+}
+
+.sidenav .user_icon:hover {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.sidenav .user_icon img {
+    width: 22px;
+}
+
+
+.sidenav .card_icon {
+    width: fit-content;
+    padding: .3rem .7rem;
+    border-radius: 3px;
+}
+
+.sidenav .card_icon:hover {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.sidenav .card_icon img {
+    width: 24px;
+}
+
+@media(min-width:920px){
+    .sidenav{
+        height: 100%;
+        width: 75px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        padding-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        display: block;
+    }
+}
